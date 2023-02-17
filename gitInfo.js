@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "git is a version control system used to manage and track changes."
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = "GitHub is a website for the version control system. It stores snapshots of uploaded code."
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = "This command initializes a new git repository."
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = "Makes a copy of an existing repo from the server"
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+let gitStatusDefinition = "Checks the status of files in your current location"
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,8 @@
 */
 
 //CODE HERE
+let gitAddDefinition = "This adds a file to the staging area"
+let gitAddCode = "git add ."
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +71,8 @@
 */
 
 //CODE HERE
-
+let gitCommitDefinition = "captures the file you're ready to commit and lets you add a message"
+let gitCommitCode = `git commit -m "initial commit"`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +81,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "updates and exports or ‘pushes’ the file to a repository"
