@@ -50,8 +50,17 @@ const pinkPrice = .55
 */
 
 // CODE HERE
+
+// create a variable for the total acres and set it to an integer of 0
 let totalAcres = 0
 
+// create a for-loop assigned to each type of apple in order to add every number listed in the arrays
+// assign a variable to 0 in the first argument of the for-loop
+// in the second argument, have the assigned variable be less than the number of items in the array
+// add one to the assigned variable in the third argument of the for-loop
+
+// in each iteration of the loop, we want the items in the array to add up
+// add and assign each iteration into the empty variable for total acres
 for (let i = 0; i < fujiAcres.length; i++) {
     totalAcres += fujiAcres[i]
 }
@@ -62,6 +71,7 @@ for (let i = 0; i < pinkAcres.length; i++) {
     totalAcres += pinkAcres[i]
 }
 
+// log the total acres
 console.log(totalAcres)
 
 
@@ -78,6 +88,10 @@ console.log(totalAcres)
 */
 
 // CODE HERE
+
+// calculate the average by assigning the given variable
+// the average is the total divided by the number of items (days) in the array
+// log the average
 let averageDailyAcres = 0
 
 averageDailyAcres = totalAcres / fujiAcres.length
@@ -118,6 +132,12 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
+
+// write a while-loop to run while the variable 'acresLeft' is greater than 0
+// through each loop:
+//  1. minus the average amount days from 'acresLeft' and reassign the variable
+//  2. add one to the days and reassign the variable
+// log the number of days it takes for the average acres to loop through 'acresLeft'
 while (acresLeft > 0) {
     acresLeft -= averageDailyAcres
     days += 1
@@ -151,6 +171,13 @@ console.log(days)
 */
 
 // CODE HERE
+
+// create 3 empty arrays
+// create a variable for the weight (6.5 ton)
+// create for-loops for each apple type with 3 arguments to loop through the items in the acres array
+// during each loop, add the calculated weight to the empty arrays
+// calculate the weight by multiplying the weight variable to every item of the acres array
+// log each array 
 let fujiTons = []
 let galaTons = []
 let pinkTons = []
@@ -188,7 +215,13 @@ console.log(pinkTons)
     Hint: there are 2000 pounds in a ton.
 */
 
-// CODE HERE 
+// CODE HERE
+
+// assign three different variables for the apple variety by punds to an integer of 0
+// create for-loops to go through the items in the array
+// in each loop, add and reassign the item in the array
+// multiply it all by 2000 to convert it from tons to pounds
+// log each weight
 let fujiPounds = 0
 let galaPounds = 0
 let pinkPounds = 0
